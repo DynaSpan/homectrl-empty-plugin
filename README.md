@@ -4,4 +4,4 @@ This is an example of an empty plugin that works with HomeCTRL. You could use th
 
 ## Compiling
 
-Make sure you reference the HomeCTRL.Plugin project in the homectrl-backend repository.
+Make sure you reference the HomeCTRL.Plugin project in the homectrl-plugin-interface repository.
