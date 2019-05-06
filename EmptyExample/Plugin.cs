@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using HomeCTRL.Plugin;
 
-namespace HomeCTRL.Plugin.EmptyExample
+namespace Example.Plugin.EmptyExample
 {
     public class Plugin : IPlugin
     {
@@ -11,6 +12,11 @@ namespace HomeCTRL.Plugin.EmptyExample
             Console.WriteLine("TESSSTTTTT");
 
             return await Task.FromResult<bool>(true);
+        }
+
+        public void Dispose()
+        {
+            // do nothing
         }
     }
 }

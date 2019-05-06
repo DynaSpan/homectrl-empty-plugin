@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\backend\Plugin\HomeCTRL.Plugin.csproj" />
+    <ProjectReference Include="..\homectrl-backend\Plugin\HomeCTRL.Plugin.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>HomeCTRL.Plugin.EmptyExample</RootNamespace>
+    <RootNamespace>Example.Plugin.EmptyExample</RootNamespace>
   </PropertyGroup>
 
 </Project>
