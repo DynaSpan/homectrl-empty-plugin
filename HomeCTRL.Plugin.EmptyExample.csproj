@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\homectrl-backend\Plugin\HomeCTRL.Plugin.csproj" />
+    <ProjectReference Include="..\homectrl-plugin-interface\HomeCTRL.Plugin.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
